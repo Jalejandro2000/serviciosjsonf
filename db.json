@@ -1,31 +1,62 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "Post 1"
-    },
-    {
-      "id": 2,
-      "title": "Post 2"
-    },
-    {
-      "id": 3,
-      "title": "Post 3"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "Roles": [
+        {
+            "id": 1,
+            "nombre": "Administrador"
+        },
+        {
+            "id": 2,
+            "nombre": "Usuario Sistema"
+        },
+        {
+            "id": 3,
+            "nombre": "Usuario Basico"
+        }
+    ],
+    "Usuarios": [
+        {
+            "id": 1,
+            "nombre": "Alejandro",
+            "usuario": "jalejando",
+            "clave": "12345",
+            "rol": 1,
+            "imagen": null
+        },
+        {
+            "id": 2,
+            "nombre": "Jose",
+            "usuario": "jantonio",
+            "clave": "12345",
+            "rol": 2,
+            "imagen": null
+        },
+        {
+            "id": 3,
+            "nombre": "alejandra",
+            "usuario": "ialejanda",
+            "clave": "12345",
+            "rol": 3,
+            "imagen": null
+        }
+    ],
+    "Servicios": [
+        {
+            "id": 1,
+            "nombre": "Panel de Control",
+            "descripcion": "Seccion informativa de configuraciones.",
+            "rol": [
+                1,
+                2,
+                3
+            ]
+        },
+        {
+            "id": 2,
+            "nombre": "Usuarios y Contraseñas",
+            "descripcion": "Seccion para el manejo de usuarios y contraseñas.",
+            "rol": [
+                1
+            ]
+        }
+    ]
 }
