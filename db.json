@@ -57,6 +57,14 @@
             "rol": [
                 1
             ]
+        },
+        {
+            "id": 3,
+            "nombre": "Dejar Comentario",
+            "descripcion": "Sección para interacturar con sugerencias y comentarios al desarrollador del sitio.",
+            "rol": [
+                3
+            ]
         }
     ]
 }
