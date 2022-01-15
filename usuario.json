@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "nombre": "Alejandro",
+        "usuario": "jalejando",
+        "clave": "12345",
+        "rol":1,
+        "imagen":null
+    },
+    {
+        "id":2,
+        "nombre": "Jose",
+        "usuario": "jantonio",
+        "clave": "12345",
+        "rol":2,
+        "imagen":null
+    },
+    {
+        "id":3,
+        "nombre": "alejandra",
+        "usuario": "ialejanda",
+        "clave": "12345",
+        "rol":3,
+        "imagen":null
+    }
+]
