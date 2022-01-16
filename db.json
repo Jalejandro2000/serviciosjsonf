@@ -1,73 +1,28 @@
-{
-    "Roles": [
-        {
-            "id": 1,
-            "nombre": "Administrador"
-        },
-        {
-            "id": 2,
-            "nombre": "Usuario Sistema"
-        },
-        {
-            "id": 3,
-            "nombre": "Usuario Basico"
-        }
-    ],
-   "Usuarios": [
-        {
-            "id": 1,
-            "nombre": "Alejandro",
-            "usuario": "jalejando",
-            "clave": "12345",
-            "rol": 1,
-            "imagen": "https://user-images.githubusercontent.com/67810669/149614724-0b3161bc-a042-426b-921c-3ca3311164e8.jpg"
-        },
-        {
-            "id": 2,
-            "nombre": "Jose",
-            "usuario": "jantonio",
-            "clave": "12345",
-            "rol": 2,
-            "imagen": "https://cdn-icons-png.flaticon.com/512/78/78948.png"
-        },
-        {
-            "id": 3,
-            "nombre": "alejandra",
-            "usuario": "ialejanda",
-            "clave": "12345",
-            "rol": 3,
-            "imagen": "https://cdn-icons.flaticon.com/png/512/2201/premium/2201689.png?token=exp=1642234626~hmac=fd9a9d7393d3a7fd15feaf4b3bffc511"
-        }
-    ],
-        "Servicios": [
-        {
-            "id": 1,
-            "nombre": "Panel de Control",
-            "descripcion": "Sección informativa de configuraciones.",
-            "rol": [
-                1,
-                2,
-                3
-            ],
-            "imagen": "https://cdn-icons-png.flaticon.com/512/2825/2825576.png"
-        },
-        {
-            "id": 2,
-            "nombre": "Usuarios y Contraseñas",
-            "descripcion": "Sección para el manejo de usuarios y contraseñas.",
-            "rol": [
-                1
-            ],
-            "imagen": "https://cdn-icons-png.flaticon.com/512/1828/1828503.png"
-        },
-        {
-            "id": 3,
-            "nombre": "Dejar Comentario",
-            "descripcion": "Sección para interacturar con sugerencias y comentarios al desarrollador del sitio.",
-            "rol": [
-                3
-            ],
-            "imagen": "https://cdn-icons-png.flaticon.com/512/1380/1380338.png"
-        }
-    ]
-}
+[
+    {
+        "id": 1,
+        "nombre": "Alejandro",
+        "usuario": "jalejando",
+        "clave": "12345",
+        "rol": "Administrador",
+        "imagen": "https://user-images.githubusercontent.com/67810669/149614724-0b3161bc-a042-426b-921c-3ca3311164e8.jpg"
+
+    },
+    {
+        "id": 2,
+        "nombre": "Jose",
+        "usuario": "jantonio",
+        "clave": "12345",
+        "rol": "Usuario Sistema",
+        "imagen": "https://cdn-icons-png.flaticon.com/512/78/78948.png"
+    },
+    {
+        "id": 3,
+        "nombre": "alejandra",
+        "usuario": "ialejanda",
+        "clave": "12345",
+        "rol": "Usuario Basico",
+        "imagen": "https://cdn-icons.flaticon.com/png/512/2201/premium/2201689.png?token=exp=1642234626~hmac=fd9a9d7393d3a7fd15feaf4b3bffc511"
+    }
+
+]
