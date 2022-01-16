@@ -1,5 +1,5 @@
-[
-    {
+{
+    [
         "id": 1,
         "nombre": "Alejandro",
         "usuario": "jalejando",
@@ -24,5 +24,6 @@
         "rol": "Usuario Basico",
         "imagen": "https://cdn-icons.flaticon.com/png/512/2201/premium/2201689.png?token=exp=1642234626~hmac=fd9a9d7393d3a7fd15feaf4b3bffc511"
     }
-
 ]
+
+}
