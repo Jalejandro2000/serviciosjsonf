@@ -28,7 +28,7 @@
             "usuario": "jantonio",
             "clave": "12345",
             "rol": 2,
-            "imagen": "https://cdn-icons-png.flaticon.com/512/78/78948.png"
+            "imagen": "https://user-images.githubusercontent.com/67810669/149707363-a32cd8c3-2d74-4c4d-bcd0-e01a946811a5.png"
         },
         {
             "id": 3,
@@ -36,7 +36,7 @@
             "usuario": "ialejanda",
             "clave": "12345",
             "rol": 3,
-            "imagen": "https://cdn-icons.flaticon.com/png/512/2201/premium/2201689.png?token=exp=1642234626~hmac=fd9a9d7393d3a7fd15feaf4b3bffc511"
+            "imagen": "https://user-images.githubusercontent.com/67810669/149707489-2aa61ec7-6ba9-4040-8ad9-fe20480f87ed.png"
         }
     ],
         "Servicios": [
